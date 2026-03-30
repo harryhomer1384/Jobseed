@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JobSeed - Find Your First Job Safely</title>
@@ -1375,7 +1377,7 @@
             <div class="hero-content">
                 <div class="hero-badge">
                     <i data-lucide="shield-check" style="width: 16px; height: 16px;"></i>
-                    Trusted by 10,000+ teens & parents
+                    Trusted by 100+ early users
                 </div>
                 <h1 class="hero-title">
                     Find Your First Job <span>Safely</span>
@@ -1673,7 +1675,7 @@
                     <p class="pricing-description">Unlock your full potential</p>
                 </div>
                 <div class="pricing-price">
-                    <span class="price" data-monthly="$4.99" data-annual="$3.99">$4.99</span>
+                    <span class="price" data-monthly="฿179" data-annual="฿149">฿179</span>
                     <span class="price-period">/month</span>
                 </div>
                 <ul class="pricing-features">
@@ -1690,10 +1692,10 @@
             <div class="pricing-card animate-on-scroll">
                 <div class="pricing-header">
                     <h3 class="pricing-name">Business Growth</h3>
-                    <p class="pricing-description">For small businesses hiring teens</p>
+                    <p class="pricing-description">Free for teens in Thailand. Affordable pricing in Thai Baht (฿).</p>
                 </div>
                 <div class="pricing-price">
-                    <span class="price" data-monthly="$99" data-annual="$79">$99</span>
+                    <span class="price" data-monthly="฿3,490" data-annual="฿2,790">฿3,490</span>
                     <span class="price-period">/month</span>
                 </div>
                 <ul class="pricing-features">
@@ -2047,9 +2049,9 @@
         }
 
         function toggleMobileMenu() {
-            const navLinks = document.querySelector('.nav-links');
-            navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
-        }
+    const navLinks = document.querySelector('.nav-links');
+    navLinks.classList.toggle('active');
+}
 
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
